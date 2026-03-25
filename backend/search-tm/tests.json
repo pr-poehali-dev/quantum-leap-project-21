@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "name": "Поиск товарного знака ЕМКОЛБАСКИ",
+      "method": "POST",
+      "path": "/",
+      "body": {"query": "ЕМКОЛБАСКИ"},
+      "expectedStatus": 200,
+      "expectedBody": {"total": 0},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Пустой запрос возвращает 400",
+      "method": "POST",
+      "path": "/",
+      "body": {"query": ""},
+      "expectedStatus": 400,
+      "bodyMatcher": "partial",
+      "expectedBody": {}
+    },
+    {
+      "name": "OPTIONS preflight",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial",
+      "expectedBody": {}
+    }
+  ]
+}
