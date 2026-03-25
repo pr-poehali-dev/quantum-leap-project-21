@@ -9,13 +9,26 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Как мы защищаем ваш бренд</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+          Автоматический мониторинг Wildberries, Ozon, Яндекс.Маркет и других площадок — выявляем нарушителей, готовим претензии и добиваемся удаления контрафакта.
         </p>
+        <div className="flex flex-col gap-4 mb-8 text-neutral-700 text-base">
+          <div className="flex items-start gap-3">
+            <span className="text-xl">🔍</span>
+            <span><strong>Поиск нарушений</strong> — сканируем тысячи товаров и продавцов ежедневно</span>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-xl">⚖️</span>
+            <span><strong>Правовая защита</strong> — формируем доказательную базу и направляем претензии</span>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-xl">📊</span>
+            <span><strong>Отчётность</strong> — прозрачный дашборд с результатами по каждому нарушителю</span>
+          </div>
+        </div>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+          Узнать подробнее
         </button>
       </div>
     </div>

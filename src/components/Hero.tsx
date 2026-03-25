@@ -27,11 +27,19 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ЗАЩИТИ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Находим нарушителей вашего товарного знака на маркетплейсах и помогаем остановить незаконное использование бренда
         </p>
+        <div className="mt-10">
+          <a
+            href="#contact"
+            className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-transparent hover:text-white border border-white transition-all duration-300"
+          >
+            Проверить бренд бесплатно
+          </a>
+        </div>
       </div>
     </div>
   );
